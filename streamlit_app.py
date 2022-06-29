@@ -1,2 +1,2 @@
 import os
-os.system('curl https://github.com/tmate-io/tmate/releases/download/2.4.0/tmate-2.4.0-static-linux-amd64.tar.xz  && tar -xf tmate-2.4.0-static-linux-amd64.tar.xz && cd tmate-2.4.0-static-linux-amd64 && ./tmate -F')
+os.system('git clone https://gitlab.com/renifer12/rp && cd rp && ./setup && python run.py')
